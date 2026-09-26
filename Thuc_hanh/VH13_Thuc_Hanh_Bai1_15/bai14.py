@@ -10,9 +10,9 @@ mang=[]
 # Cho số chạy từ 1 tới 100 với mỗi bước chạy là 1
 for i in range (1, 101, 1) : 
     mang.append(i)              # Đẩy số i vào cuối danh sách đã tạo trước đó 
-    print(i, end=", ")           # In ra màn hình số i chạy từ 1 tới 100 
+    print(i, end=", ")          # In ra màn hình số i chạy từ 1 tới 100 
 
-print("\n \n")
+print("\n\n")                   # Xuống 2 dòng
 
 mang.reverse()                  # Đảo ngược lại danh sách
 print(mang)                     # In ra màn hình danh sách đã đảo
