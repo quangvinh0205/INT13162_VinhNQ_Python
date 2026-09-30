@@ -63,5 +63,5 @@ a = float(input("Nhập số a: "))
 b = float(input("Nhập số b: "))
 c = float(input("Nhập số c: "))
 
-
+# In kết quả nghiệm ra màn hình 
 print("Kết quả nghiệm",gpttp(a,b,c))
